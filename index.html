@@ -1,54 +1,104 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="css/bootstrap.css" media="screen" charset="utf-8"></link>
-    <link rel="stylesheet" href="css/bootstrap-theme.css" media="screen" charset="utf-8"></link>
-    <link rel="stylesheet" href="css/main.css" media="screen" charset="utf-8"></link>
 
-    <title>Cleanly</title>
-  </head>
-  <body>
-    <h1>cleanly</h1>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap.css" media="screen" charset="utf-8"></link>
+  <link rel="stylesheet" href="css/bootstrap-theme.css" media="screen" charset="utf-8"></link>
+  <link rel="stylesheet" href="css/main.css" media="screen" charset="utf-8"></link>
+
+  <title>Cleanly</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+  <h1 class="">cleanly.com</h1>
+  </div>
+</nav>
 
 
-      <p></p>
-      <div class="row">
-        <h1></h1>
-        <div class="col-md-2 col-md-offset-4">News</div>
-        <div class="col-md-2">Information</div>
-        <div class="col-md-2">Suport</div>
-        <div class="col-md-2">Contact</div>
+  <div class="row">
+    <h1 class="col-md-9 col-md-offset-3">cleanly.com</h1>
+  </div>
+
+  <div class="row">
+    <h1></h1>
+
+
+    <div class="col-md-2 col-offset-2">
+      <ul class="list-group">
+        <li ><a href="#" class="list-group-item">Business</a></li>
+        <li ><a href="#" class="list-group-item">Cleaning</a></li>
+        <li ><a href="#" class="list-group-item">Gardening</a></li>
+        <li ><button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Login</button></li>
+
+    </div>
+
+    <div class="col-md-8">
+      <div class="bs-example bs-example-tabs" data-example-id="togglable-tabs">
+        <ul id="myTabs" class="nav nav-tabs" role="tablist">
+          <li role="presentation" class="active">
+            <a href="#news" id="home-tab" role="tab" data-toggle="tab" aria-controls="news" aria-expanded="true">News</a>
+          </li>
+          <li role="presentation" class="">
+            <a href="#information" role="tab" id="information-tab" data-toggle="tab" aria-controls="profile" aria-expanded="false">Information</a>
+          </li>
+          <li role="presentation" class="">
+            <a href="#support" role="tab" id="support-tab" data-toggle="tab" aria-controls="profile" aria-expanded="false">Support</a>
+          </li>
+          <li role="presentation" class="dropdown">
+            <a href="#" id="myTabDrop1" class="dropdown-toggle" data-toggle="dropdown" aria-controls="myTabDrop1-contents" aria-expanded="false">Contact <span class="caret"></span></a>
+            <ul class="dropdown-menu" aria-labelledby="myTabDrop1" id="myTabDrop1-contents">
+              <li class=""><a href="#dropdown1" role="tab" id="dropdown1-tab" data-toggle="tab" aria-controls="dropdown1" aria-expanded="false">Contact informatio</a></li>
+              <li><a href="#dropdown2" role="tab" id="dropdown2-tab" data-toggle="tab" aria-controls="dropdown2" aria-expanded="false">Leive a message</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div id="myTabContent" class="tab-content">
+          <div role="tabpanel" class="tab-pane fade active in" id="news" aria-labelledby="news-tab">
+            <p>The launch of this web site is not shedualed yet so be patant</p>
+          </div>
+          <div role="tabpanel" class="tab-pane fade" id="information" aria-labelledby="information-tab">
+            <p>This tab is not currently in use as there is no information for me to provide at the current time. but hey at least it is going. this tab will also allow businesses to publish if they have any problems that may hinder them so as to worn the customers</p>
+          </div>
+          <div role="tabpanel" class="tab-pane fade" id="support" aria-labelledby="support-tab">
+            <p>This tab will contain information on the navigation through the website as well as contain an easy tour of the website and any other usefull information a customer or a business might have.</p>
+          </div>
+          <div role="tabpanel" class="tab-pane fade" id="dropdown1" aria-labelledby="dropdown1-tab">
+            <p>Ethis tab will contain the address of the office so that people can send letters and contact me through other means</p>
+          </div>
+          <div role="tabpanel" class="tab-pane fade" id="dropdown2" aria-labelledby="dropdown2-tab">
+            <p>This tab on the other hand will contain a way for you to leive a temporary message on the website. i will get notified if an have been left and it will most propobly be the easyest way to contact me. making it however is a different subject matter, I think.
+            This will be a public message so anyone can see it and coment on it however it will be remuved after a period of time.</p>
+          </div>
+        </div>
       </div>
-      <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-2">Businesses</div>
-        <div class="col-md-2"></div>
-        <div class="col-md-2"></div>
-        <div class="col-md-2"></div>
-        <div class="col-md-2"></div>
-      </div>
-      <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-2">Cleaning</div>
-        <div class="col-md-2"></div>
-        <div class="col-md-2"></div>
-        <div class="col-md-2"></div>
-        <div class="col-md-2"></div>
-      </div>
-      <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-2">Gardening</div>
-        <div class="col-md-2"></div>
-        <div class="col-md-2"></div>
-        <div class="col-md-2"></div>
-        <div class="col-md-2"></div>
+  </div>
+
       </div>
 
+      <div id="myModal" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title">Modal title</h4>
+            </div>
+            <div class="modal-body">
+              <p>One fine body&hellip;</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
+    </body>
 
-  </body>
+<!-- N0ot wrking atm - will fix when needed -->
+<script src="https://code.jquery.com/jquery-2.1.4.js" charset="utf-8"></script>
+<script src="js/bootstrap.js" charset="utf-8"></script>
 
-  <!-- N0ot wrking atm - will fix when needed -->
-  <script src="https://code.jquery.com/jquery-2.1.4.js" charset="utf-8"></script>
-  <script src="js/bootstrap.js" charset="utf-8"></script>
 </html>
