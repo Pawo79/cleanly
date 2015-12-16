@@ -17,9 +17,10 @@
         <ul id="myTabs" class="nav nav-tabs" role="tablist">
           <li role="presentation" class="active">
           <li><h1 class="col-md-3">cleanly.com</h1></li>
-          <li><button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Login</button></li>
-          <li><button type="button" class="btn btn-primary btn-lg"><a href="#">Register</a></button></li>
-      </div>   <!     >
+          <li class="pull-right"><button type="button" class="btn btn-default navbar-btn" data-toggle="modal" data-target="#myModal">Login</button></li>
+          <li class="pull-right"><button type="button" class="btn btn-default navbar-btn"><a href="#">Register</a></button></li>
+        </ul>
+      </div>
     </div>
   </nav>
 
