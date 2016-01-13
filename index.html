@@ -16,9 +16,15 @@
       <div class="bs-example bs-example-tabs" data-example-id="togglable-tabs">
         <ul id="myTabs" class="nav nav-tabs" role="tablist">
           <li role="presentation" class="active">
-          <li><h1 class="col-md-3">cleanly.com</h1></li>
-          <li class="pull-right"><button type="button" class="btn btn-default navbar-btn" data-toggle="modal" data-target="#myModal">Login</button></li>
-          <li class="pull-right"><button type="button" class="btn btn-default navbar-btn"><a href="#">Register</a></button></li>
+            <li>
+              <h1 class="col-md-3">cleanly.com</h1>
+            </li>
+            <li class="pull-right">
+              <button type="button" class="btn btn-default navbar-btn" data-toggle="modal" data-target="#myModal">Login</button>
+            </li>
+            <li class="pull-right">
+              <button type="button" class="btn btn-default navbar-btn"><a href="register-page.html">Register</a></button>
+            </li>
         </ul>
       </div>
     </div>
@@ -34,7 +40,9 @@
 
     <div class="col-md-2">
       <div class="button-group">
-        <button class="list-group-item">Business</button>
+        <a href="business-page.html">
+          <button class="list-group-item">Business</button>
+        </a>
         <button class="list-group-item">Cleaning</button>
         <button class="list-group-item">Gardening</button>
       </div>
@@ -65,7 +73,8 @@
             <p>The launch of this web site is not shedualed yet so be patant</p>
           </div>
           <div role="tabpanel" class="tab-pane fade" id="information" aria-labelledby="information-tab">
-            <p>This tab is not currently in use as there is no information for me to provide at the current time. but hey at least it is going. this tab will also allow businesses to publish if they have any problems that may hinder them so as to worn the customers</p>
+            <p>This tab is not currently in use as there is no information for me to provide at the current time. but hey at least it is going. this tab will also allow businesses to publish if they have any problems that may hinder them so as to worn the
+              customers</p>
           </div>
           <div role="tabpanel" class="tab-pane fade" id="support" aria-labelledby="support-tab">
             <p>This tab will contain information on the navigation through the website as well as contain an easy tour of the website and any other usefull information a customer or a business might have.</p>
@@ -74,33 +83,35 @@
             <p>Ethis tab will contain the address of the office so that people can send letters and contact me through other means</p>
           </div>
           <div role="tabpanel" class="tab-pane fade" id="dropdown2" aria-labelledby="dropdown2-tab">
-            <p>This tab on the other hand will contain a way for you to leive a temporary message on the website. i will get notified if an have been left and it will most propobly be the easyest way to contact me. making it however is a different subject matter, I think.
-            This will be a public message so anyone can see it and coment on it however it will be remuved after a period of time.</p>
+            <p>This tab on the other hand will contain a way for you to leive a temporary message on the website. i will get notified if an have been left and it will most propobly be the easyest way to contact me. making it however is a different subject
+              matter, I think. This will be a public message so anyone can see it and coment on it however it will be remuved after a period of time.</p>
           </div>
         </div>
       </div>
+    </div>
+
   </div>
 
-      </div>
-
-      <div id="myModal" class="modal fade" tabindex="-1" role="dialog">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-              <h4 class="modal-title">Log in</h4>
-            </div>
-            <div class="modal-body">
-              <p>log in interface goes here&hellip;</p>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Log In</button>
-            </div>
-          </div>
+  <div id="myModal" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h4 class="modal-title">Log in</h4>
+        </div>
+        <div class="modal-body">
+          <p>log in interface goes here&hellip;</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Log In</button>
         </div>
       </div>
-    </body>
+    </div>
+  </div>
+</body>
 
 <!-- N0ot wrking atm - will fix when needed -->
 <script src="https://code.jquery.com/jquery-2.1.4.js" charset="utf-8"></script>
